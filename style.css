@@ -1,0 +1,172 @@
+:root {
+  --primary-darker: #1c2929;
+  --primary-light: #01777a;
+  --primary-mid: #017579;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('city-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+
+  height: 100vh;
+  line-height: 1.5rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(19, 90, 100, 0.8), #135b6450);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: var(--primary-darker);
+  position: relative;
+  z-index: 2;
+}
+
+.logo {
+  font-size: 2rem;
+  background-color: #042225;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none;
+  width: 20%;
+}
+
+.nav__link a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pad {
+  padding: 1rem 2rem;
+}
+
+.nav_search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: white;
+  width: 340px;
+  border-radius: 18px;
+  width: 32%;
+  padding-left: 5px;
+}
+
+.nav_search__search-con {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.search {
+  border: none;
+  width: 190px;
+  width: 210px;
+  flex: 1;
+  height: 100%;
+  outline: none;
+}
+
+.search::placeholder {
+  color: var(--primary-light);
+}
+
+.search:focus {
+  outline: none;
+}
+
+.nav_search__btn-con {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav_search__btn-con button {
+  padding: 0.2rem 0.5rem;
+  background-color: var(--primary-light);
+  border: 1px solid var(--primary-light);
+  color: white;
+  cursor: pointer;
+}
+
+main {
+  height: 100%;
+  position: inherit;
+  z-index: 2;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.main__content {
+  font-weight: bolder;
+  max-width: 436px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main__content h1 {
+  line-height: 3rem;
+  font-size: 3rem;
+}
+
+.main__content button {
+  padding: 0.2rem 0.5rem;
+  background-color: var(--primary-mid);
+  border: 1px solid var(--primary-mid);
+  color: white;
+  cursor: pointer;
+  width: 170px;
+  height: 35px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.social_line {
+  background-color: white;
+  height: 150px;
+  width: 2px;
+}
