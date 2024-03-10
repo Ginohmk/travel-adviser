@@ -1,4 +1,4 @@
-## IBM project on Full stack course
+## IBM project (Desktop only ) on Full stack course
 
 <br/>
 
