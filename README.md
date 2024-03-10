@@ -1,5 +1,10 @@
 ## IBM project on Full stack course
 
+<br/>
+
+![Screenshot from 2024-03-10 20-24-17](https://github.com/Ginohmk/travel-adviser/assets/58771507/3239b20d-10bc-4215-b320-23263042dab7)
+
+<br/>
 ### This website will include:
 
 - navigation bar with links to the home page, "About Us" and "Contact Us" pages
