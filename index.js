@@ -74,5 +74,5 @@ searcBtn.addEventListener('click', () => {
 clearBtn.addEventListener('click', () => {
   searchInputHolder.value = '';
   searchResult = [];
-  renderSearchResult([]);
+  ParentSearchValue.innerHTML = ``;
 });
