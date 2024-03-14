@@ -10,6 +10,8 @@
       integrity="sha384-KVJ8zWj2GFLZUUqDhhb31lpoNt7BcLy8ZpPVnCdkf9LA6gHDf4/njc8i+aqtZ/+p"
       crossorigin="anonymous"
     />
+    <script src="index.js" defer></script>
+
     <title>Travel adviser</title>
   </head>
   <body>
@@ -33,13 +35,14 @@
             type="text"
             placeholder="Enter destination or keyword"
             class="search"
+            id="search-input"
           />
           <div class="nav-search__icon">&#x1F50D;</div>
         </div>
 
         <div class="nav_search__btn-con">
-          <button>Search</button>
-          <button>Clear</button>
+          <button id="search-btn">Search</button>
+          <button id="clear-btn">Clear</button>
         </div>
       </div>
     </nav>
@@ -90,6 +93,23 @@
         </p>
 
         <button>BOOK NOW</button>
+      </div>
+
+      <div class="serch-value" id="search-value">
+        <div class="search-value__item">
+          <div class="search-value__item-img-con">
+            <img src="pexels-asad-photo-maldives-240526.jpg" alt="japan" />
+          </div>
+
+          <div class="search-value__item-content">
+            <h3>Syndney, Australia</h3>
+            <p>
+              A lively city known for its stunning beaches, vibrant carnival
+              celebrations, and iconic landmarks.
+            </p>
+            <a href="#" class="search-value__item-btn">view</a>
+          </div>
+        </div>
       </div>
     </main>
   </body>

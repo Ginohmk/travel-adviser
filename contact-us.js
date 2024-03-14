@@ -7,7 +7,7 @@ let userName = '';
 let userMessage = '';
 let userEmail = '';
 
-name.addEventListener('change', (event) => {
+name.addEventListener('input', (event) => {
   userName = event.target.value;
 });
 
